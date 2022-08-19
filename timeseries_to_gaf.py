@@ -46,4 +46,4 @@ def create_images(X_plots: Any, image_name: str, destination: str, image_matrix:
 
     repo = os.path.join('GramianAngularFields/TRAIN', destination)
     fig.savefig(os.path.join(repo, image_name))
-    plt.close(fig)
+    plt.close(fig) 
