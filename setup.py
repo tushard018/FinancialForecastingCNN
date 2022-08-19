@@ -1,0 +1,21 @@
+import os
+
+# Creates directories and sub directories needed for the project to run
+print('Creating Directories:')
+PATH = os.path.dirname(__file__)
+GAF = os.path.join(PATH , 'GramianAngularFields')
+TRAIN_PATH = os.path.join(GAF , 'TRAIN')
+TRAIN_LONG = os.path.join(TRAIN_PATH , 'LONG')
+TRAIN_SHORT = os.path.join(TRAIN_PATH , 'SHORT')
+os.makedirs(TRAIN_LONG)
+os.makedirs(TRAIN_SHORT)
+DATA_PATH = os.path.join(PATH, 'TimeSeries')
+os.mkdir(DATA_PATH)
+MODELS_PATH = os.path.join(PATH, 'Models')
+os.mkdir(MODELS_PATH)
+print(GAF)
+print(TRAIN_PATH)
+print(TRAIN_LONG)
+print(TRAIN_SHORT)
+print(DATA_PATH)
+print(MODELS_PATH)
