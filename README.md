@@ -1,4 +1,5 @@
 Forecasting with Time-Series to Image Encoding and Convolutional Neural Networks
+
 Within forecasting there's an age old question, how useful and how relevant is my data and can I use it to make accurate predictions of what's going to happen in the future. For most of the previous and current century, this has been pretty constant. 
 This however has been radically chaining thanks to the introduction of new technologies as well as Deep Learning. 
 
