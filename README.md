@@ -5,7 +5,7 @@ This however has been radically chaining thanks to the introduction of new techn
 
 A novel approach proposed by a team from the University of Cagliari is transforming time-series into images and using Convolutional Neural Networks to find pattern that might otherwise be overlooked by even the most seasoned analyst. 
 
-## Instalation
+## Installation
 Download the repo into your machine
 Install required packages in requirements.txt
 ```bash
